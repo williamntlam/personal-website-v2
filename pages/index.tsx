@@ -78,7 +78,7 @@ export default function Home() {
       {/* Education Section */}
       <section className="min-h-screen flex items-center justify-center px-8 py-20">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-light text-gray-900 dark:text-white mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl mb-12 font-light text-gray-900 dark:text-white text-center">
             Education
           </h2>
           <div className="space-y-8">
@@ -112,7 +112,7 @@ export default function Home() {
       {/* Work Experience Section */}
       <section className="min-h-screen flex items-center justify-center px-8 py-20">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-light text-gray-900 dark:text-white mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl mb-12 font-light text-gray-900 dark:text-white text-center">
             Work Experience
           </h2>
           <div className="space-y-8">
@@ -190,122 +190,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Extracurriculars Section */}
-      <section className="min-h-screen flex items-center justify-center px-8 py-20">
-        
+       {/* Personal Projects Section */}
+       <section className="min-h-screen flex items-center justify-center px-8 py-20">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-light text-gray-900 dark:text-white mb-12 text-center">
-            Extracurriculars
-          </h2>
-          
-          <div className="space-y-8">
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
-                    <Image
-                      src="/utmist.svg"
-                      alt="UTMIST Logo"
-                      width={36}
-                      height={36}
-                      className="object-contain rounded-md bg-white"
-                    />
-                  </div>
-                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">Director of Software Infrastructure</h3>
-                </div>
-                <span className="text-gray-600 dark:text-gray-400 text-sm">May 2025 - Present</span>
-              </div>
-              <p className="text-gray-600 dark:text-gray-400 mb-2">UTMIST (University of Toronto Machine Intelligence Student Team)</p>
-              <p className="text-gray-700 dark:text-gray-300">
-                Director of Software Infrastructure at North America&apos;s largest student-led organization for AI/ML. 
-                UTMIST has 500+ developers across all teams, completed 50+ AI/ML projects, partnered with 20+ industry collaborators, 
-                conducted 50+ academic workshops, published 50+ articles and notebooks, and published 10+ papers in top-tier conferences. 
-                Leading infrastructure initiatives to empower students of all skill levels in accelerating their AI/ML careers through 
-                workshops, conferences, hackathons, and collaborative projects.
-              </p>
-            </div>
-            
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
-                    <Image
-                      src="/uoft-blueprint.ico"
-                      alt="UofT Blueprint Logo"
-                      width={48}
-                      height={48}
-                      className="object-contain rounded-md"
-                    />
-                  </div>
-                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">Software Developer</h3>
-                </div>
-                <span className="text-gray-600 dark:text-gray-400 text-sm">Sept. 2024 - April 2025</span>
-              </div>
-              <p className="text-gray-600 dark:text-gray-400 mb-2">UofT Blueprint</p>
-              <p className="text-gray-700 dark:text-gray-300">
-                Software Developer at Blueprint, a group of passionate UofT students dedicated to building software for social good. 
-                Collaborated with Toronto Employment Community Services to develop technological solutions that help them make a bigger 
-                impact on the community. Worked alongside passionate student developers to create real-world solutions for non-profit 
-                organizations, using technology to give back and create positive change.
-              </p>
-            </div>
-
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
-                    <Image
-                      src="/uoft-web-dev.png"
-                      alt="UofT Web Development Club Logo"
-                      width={48}
-                      height={48}
-                      className="object-contain rounded-md"
-                    />
-                  </div>
-                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">Software Developer</h3>
-                </div>
-                <span className="text-gray-600 dark:text-gray-400 text-sm">Sept. 2024 - April 2025</span>
-              </div>
-              <p className="text-gray-600 dark:text-gray-400 mb-2">UofT Web Development Club</p>
-              <p className="text-gray-700 dark:text-gray-300">
-                Software Developer at the Web Development Club, collaborating with MITO2i to shape the future of health 
-                through mitochondrial research and innovation. Worked on a project that advanced science in mitochondrial 
-                medicine & research, helping transform the understanding of mitochondrial health and disease to lead to 
-                better diagnoses and treatments that enhance quality of human life.
-              </p>
-            </div>
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
-                    <Image
-                      src="/uoft-varsity-blues.jpg"
-                      alt="UofT Varsity Blues Logo"
-                      width={48}
-                      height={48}
-                      className="object-contain rounded-md"
-                    />
-                  </div>
-                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">Athlete</h3>
-                </div>
-              </div>
-              <p className="text-gray-600 dark:text-gray-400 mb-2">UofT Junior Varsity Volleyball Team</p>
-              <p className="text-gray-700 dark:text-gray-300">
-                Active member of the University of Toronto Junior Varsity Volleyball Team, competing in intercollegiate 
-                matches. Developed teamwork, leadership, and discipline through rigorous training and 
-                competitive play while representing the university in athletic competitions.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Personal Projects Section */}
-      <section className="min-h-screen flex items-center justify-center px-8 py-20">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-light text-gray-900 dark:text-white mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-light text-gray-900 dark:text-white mb-4 text-center">
             Personal Projects
           </h2>
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 text-center max-w-2xl mx-auto">
+            I love exploring and learning new technologies. I try to code a little bit everyday to learn new system design and coding concepts, among other things.
+          </p>
           <div className="space-y-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
@@ -441,6 +334,158 @@ export default function Home() {
                   <span>Designed with <strong>responsive UI/UX</strong> using TailwindCSS and planned features for <strong>desktop app</strong> (Electron.js) and <strong>AWS EC2 deployment</strong> for real-time notifications.</span>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Extracurriculars Section */}
+      <section className="min-h-screen flex items-center justify-center px-8 py-20">
+        
+        <div className="max-w-4xl mx-auto">
+           <h2 className="text-3xl md:text-4xl font-light text-gray-900 dark:text-white mb-4 text-center">
+             Extracurriculars
+           </h2>
+            <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 text-center max-w-2xl mx-auto"> 
+              I love working with and meeting new people. I&apos;m a strong believer in always constantly learning and I feel like extracurriculars allow me to be well-rounded. 
+              Extracurriculars help me meet people that push myself to be a better person and provides that environment that lets me grow.
+            </p>
+          
+          <div className="space-y-8">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                    <Image
+                      src="/utmist.svg"
+                      alt="UTMIST Logo"
+                      width={36}
+                      height={36}
+                      className="object-contain rounded-md bg-white"
+                    />
+                  </div>
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">Director of Software Infrastructure</h3>
+                </div>
+                <span className="text-gray-600 dark:text-gray-400 text-sm">May 2025 - Present</span>
+              </div>
+              <p className="text-gray-600 dark:text-gray-400 mb-2">UTMIST (University of Toronto Machine Intelligence Student Team)</p>
+              <p className="text-gray-700 dark:text-gray-300">
+                Director of Software Infrastructure at North America&apos;s largest student-led organization for AI/ML. 
+                UTMIST has 500+ developers across all teams, completed 50+ AI/ML projects, partnered with 20+ industry collaborators, 
+                conducted 50+ academic workshops, published 50+ articles and notebooks, and published 10+ papers in top-tier conferences. 
+                Leading infrastructure initiatives to empower students of all skill levels in accelerating their AI/ML careers through 
+                workshops, conferences, hackathons, and collaborative projects.
+              </p>
+            </div>
+            
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                    <Image
+                      src="/uoft-blueprint.ico"
+                      alt="UofT Blueprint Logo"
+                      width={48}
+                      height={48}
+                      className="object-contain rounded-md"
+                    />
+                  </div>
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">Software Developer</h3>
+                </div>
+                <span className="text-gray-600 dark:text-gray-400 text-sm">Sept. 2024 - April 2025</span>
+              </div>
+              <p className="text-gray-600 dark:text-gray-400 mb-2">UofT Blueprint</p>
+              <p className="text-gray-700 dark:text-gray-300">
+                Software Developer at Blueprint, a group of passionate UofT students dedicated to building software for social good. 
+                Collaborated with Toronto Employment Community Services to develop technological solutions that help them make a bigger 
+                impact on the community. Worked alongside passionate student developers to create real-world solutions for non-profit 
+                organizations, using technology to give back and create positive change.
+              </p>
+            </div>
+
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                    <Image
+                      src="/uoft-web-dev.png"
+                      alt="UofT Web Development Club Logo"
+                      width={48}
+                      height={48}
+                      className="object-contain rounded-md"
+                    />
+                  </div>
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">Software Developer</h3>
+                </div>
+                <span className="text-gray-600 dark:text-gray-400 text-sm">Sept. 2024 - April 2025</span>
+              </div>
+              <p className="text-gray-600 dark:text-gray-400 mb-2">UofT Web Development Club</p>
+              <p className="text-gray-700 dark:text-gray-300">
+                Software Developer at the Web Development Club, collaborating with MITO2i to shape the future of health 
+                through mitochondrial research and innovation. Worked on a project that advanced science in mitochondrial 
+                medicine & research, helping transform the understanding of mitochondrial health and disease to lead to 
+                better diagnoses and treatments that enhance quality of human life.
+              </p>
+            </div>
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                    <Image
+                      src="/uoft-varsity-blues.jpg"
+                      alt="UofT Varsity Blues Logo"
+                      width={48}
+                      height={48}
+                      className="object-contain rounded-md"
+                    />
+                  </div>
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">Athlete</h3>
+                </div>
+              </div>
+              <p className="text-gray-600 dark:text-gray-400 mb-2">UofT Junior Varsity Volleyball Team</p>
+              <p className="text-gray-700 dark:text-gray-300">
+                Active member of the University of Toronto Junior Varsity Volleyball Team, competing in intercollegiate 
+                matches. Developed teamwork, leadership, and discipline through rigorous training and 
+                competitive play while representing the university in athletic competitions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Volunteer Experience Section */}
+      <section className="min-h-screen flex items-center justify-center px-8 py-20">
+        <div className="max-w-4xl mx-auto">
+           <h2 className="text-3xl md:text-4xl font-light text-gray-900 dark:text-white mb-4 text-center">
+             Volunteer Experience
+           </h2>
+           <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 text-center max-w-2xl mx-auto">
+             I try my best to give back to the people around me. The world has given so much to me, and I want to give back to the world.
+           </p>
+          <div className="space-y-8">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+               <div className="flex items-start space-x-4">
+                 <div className="flex-shrink-0 w-12 h-12 rounded-lg flex items-center justify-center">
+          <Image
+                     src="/fyfb.jpg"
+                     alt="Fort York Food Bank Logo"
+                     width={48}
+                     height={48}
+                     className="object-contain rounded-md"
+                   />
+                 </div>
+                <div className="flex-1">
+                  <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
+                    <h3 className="text-xl font-medium text-gray-900 dark:text-white">Volunteer</h3>
+                  </div>
+                  <p className="text-gray-600 dark:text-gray-400 mb-2">Fort York Food Bank</p>
+                  <p className="text-gray-700 dark:text-gray-300">
+                    Dedicated volunteer supporting Toronto&apos;s most vulnerable populations by assisting in preparing and distributing 
+                    food packages to support the Chinatown community in Downtown Toronto. Committed to making a meaningful 
+                    impact in the fight against food insecurity and supporting those in need within the local community.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
