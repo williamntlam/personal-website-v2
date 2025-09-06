@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div className={`${geistSans.className} font-sans min-h-screen bg-white dark:bg-black`}>
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-8">
-        <div className="flex flex-col items-center space-y-8">
+      <section className="min-h-screen flex flex-col items-center justify-center px-8 py-20">
+        <div className="flex flex-col items-center space-y-8 flex-1 justify-center">
           {/* Profile Picture */}
           <div className="relative">
         <Image
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="flex-shrink-0 pb-8 pt-12 animate-bounce">
           <svg
             className="w-6 h-6 text-gray-400 dark:text-gray-500"
             fill="none"
@@ -407,7 +407,7 @@ export default function Home() {
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center">
-                    <Image
+          <Image
                       src="/uoft-web-dev.png"
                       alt="UofT Web Development Club Logo"
                       width={48}
@@ -431,7 +431,7 @@ export default function Home() {
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center">
-                    <Image
+          <Image
                       src="/uoft-varsity-blues.jpg"
                       alt="UofT Varsity Blues Logo"
                       width={48}
@@ -467,7 +467,7 @@ export default function Home() {
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center">
-                    <Image
+          <Image
                       src="/fyfb.jpg"
                       alt="Fort York Food Bank Logo"
                       width={48}
