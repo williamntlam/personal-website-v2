@@ -138,7 +138,7 @@ export default function Home() {
                 </div>
                 <p className="text-gray-500 dark:text-gray-500 mb-4">Toronto, ON</p>
               <p className="text-gray-700 dark:text-gray-300">
-                Current intern working on cloud migration projects and enterprise infrastructure and automation solutions.
+                Current intern working on cloud migration projects, enterprise infrastructure, and automation solutions.
               </p>
             </div>
             
@@ -347,7 +347,7 @@ export default function Home() {
              Extracurriculars
            </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 text-center max-w-2xl mx-auto"> 
-              I love working with and meeting new people. I&apos;m a strong believer in always constantly learning and I feel like extracurriculars allow me to be well-rounded. 
+              I love working with and meeting new people. I&apos;m a strong believer in always constantly learning and I feel that extracurriculars allow me to be well-rounded. 
               Extracurriculars help me meet people that push myself to be a better person and provides that environment that lets me grow.
             </p>
           
@@ -444,7 +444,7 @@ export default function Home() {
               </div>
               <p className="text-gray-600 dark:text-gray-400 mb-2">UofT Junior Varsity Volleyball Team</p>
               <p className="text-gray-700 dark:text-gray-300">
-                Active member of the University of Toronto Junior Varsity Volleyball Team, competing in intercollegiate 
+                Former member of the University of Toronto Junior Varsity Volleyball Team, competing in intercollegiate 
                 matches. Developed teamwork, leadership, and discipline through rigorous training and 
                 competitive play while representing the university in athletic competitions.
               </p>
@@ -464,28 +464,26 @@ export default function Home() {
            </p>
           <div className="space-y-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-               <div className="flex items-start space-x-4">
-                 <div className="flex-shrink-0 w-12 h-12 rounded-lg flex items-center justify-center">
-          <Image
-                     src="/fyfb.jpg"
-                     alt="Fort York Food Bank Logo"
-                     width={48}
-                     height={48}
-                     className="object-contain rounded-md"
-                   />
-                 </div>
-                <div className="flex-1">
-                  <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-                    <h3 className="text-xl font-medium text-gray-900 dark:text-white">Volunteer</h3>
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                    <Image
+                      src="/fyfb.jpg"
+                      alt="Fort York Food Bank Logo"
+                      width={48}
+                      height={48}
+                      className="object-contain rounded-md"
+                    />
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400 mb-2">Fort York Food Bank</p>
-                  <p className="text-gray-700 dark:text-gray-300">
-                    Dedicated volunteer supporting Toronto&apos;s most vulnerable populations by assisting in preparing and distributing 
-                    food packages to support the Chinatown community in Downtown Toronto. Committed to making a meaningful 
-                    impact in the fight against food insecurity and supporting those in need within the local community.
-                  </p>
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">Volunteer</h3>
                 </div>
               </div>
+              <p className="text-gray-600 dark:text-gray-400 mb-2">Fort York Food Bank</p>
+              <p className="text-gray-700 dark:text-gray-300">
+                Dedicated volunteer supporting Toronto&apos;s most vulnerable populations by assisting in preparing and distributing 
+                food packages to support the Chinatown community in Downtown Toronto. Committed to making a meaningful 
+                impact in the fight against food insecurity and supporting those in need within the local community.
+              </p>
             </div>
           </div>
         </div>
