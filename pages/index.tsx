@@ -101,7 +101,7 @@ export default function Home() {
               <p className="text-gray-600 dark:text-gray-400 mb-2">University of Toronto</p>
               <p className="text-gray-700 dark:text-gray-300">
                 Specializing in distributed systems and AI, with coursework in software engineering, algorithms, and data structures. 
-                Completed studies in web development, machine learning, and database systems. Dean's Honour List recipient while balancing 
+                Completed studies in software engineering, database systems, and distributed systems. Dean's Honour List recipient while balancing 
                 extracurricular activities and leadership roles.
               </p>
             </div>
