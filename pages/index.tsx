@@ -85,13 +85,14 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Image
                       src="/uoft-logo-two.avif"
                       alt="University of Toronto Logo"
                       width={48}
                       height={48}
                       className="object-contain rounded-md bg-white"
+                      style={{ width: '48px', height: '48px' }}
                     />
                   </div>
                   <h3 className="text-xl font-medium text-gray-900 dark:text-white">Bachelor of Science in Computer Science</h3>
@@ -119,13 +120,14 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Image
                       src="/rbc.png"
                       alt="RBC Logo"
-                      width={36}
-                      height={36}
+                      width={48}
+                      height={48}
                       className="object-contain"
+                      style={{ width: '48px', height: '48px' }}
                     />
                   </div>
                   <h3 className="text-xl font-medium text-gray-900 dark:text-white">Software Developer Intern</h3>
@@ -145,13 +147,14 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Image
                       src="/uoft.webp"
                       alt="University of Toronto Logo"
                       width={48}
                       height={48}
                       className="object-contain rounded-md"
+                      style={{ width: '48px', height: '48px' }}
                     />
                   </div>
                   <h3 className="text-xl font-medium text-gray-900 dark:text-white">Software Engineer</h3>
@@ -355,13 +358,14 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center flex-shrink-0">
                     <Image
                       src="/utmist.svg"
                       alt="UTMIST Logo"
                       width={36}
                       height={36}
                       className="object-contain rounded-md bg-white"
+                      style={{ width: '36px', height: '36px' }}
                     />
                   </div>
                   <h3 className="text-xl font-medium text-gray-900 dark:text-white">Director of Software Infrastructure</h3>
@@ -381,13 +385,14 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Image
                       src="/uoft-blueprint.ico"
                       alt="UofT Blueprint Logo"
                       width={48}
                       height={48}
                       className="object-contain rounded-md"
+                      style={{ width: '48px', height: '48px' }}
                     />
                   </div>
                   <h3 className="text-xl font-medium text-gray-900 dark:text-white">Software Developer</h3>
@@ -406,13 +411,14 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
           <Image
                       src="/uoft-web-dev.png"
                       alt="UofT Web Development Club Logo"
                       width={48}
                       height={48}
                       className="object-contain rounded-md"
+                      style={{ width: '48px', height: '48px' }}
                     />
                   </div>
                   <h3 className="text-xl font-medium text-gray-900 dark:text-white">Software Developer</h3>
@@ -430,13 +436,14 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
           <Image
                       src="/uoft-varsity-blues.jpg"
                       alt="UofT Varsity Blues Logo"
                       width={48}
                       height={48}
                       className="object-contain rounded-md"
+                      style={{ width: '48px', height: '48px' }}
                     />
                   </div>
                   <h3 className="text-xl font-medium text-gray-900 dark:text-white">Athlete</h3>
@@ -466,13 +473,14 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
           <Image
                       src="/fyfb.jpg"
                       alt="Fort York Food Bank Logo"
                       width={48}
                       height={48}
                       className="object-contain rounded-md"
+                      style={{ width: '48px', height: '48px' }}
                     />
                   </div>
                   <h3 className="text-xl font-medium text-gray-900 dark:text-white">Volunteer</h3>
