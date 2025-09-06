@@ -61,11 +61,11 @@ export default function Home() {
             About Me
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl mx-auto">
-            Born and raised in Toronto, I'm a full-stack developer with a passion for building software applications and solving complex problems. 
-            Beyond coding, I'm deeply committed to making a meaningful impact on the world around me, whether through technology or by giving back to the community.
+            Born and raised in Toronto, I&apos;m a full-stack developer with a passion for building software applications and solving complex problems. 
+            Beyond coding, I&apos;m deeply committed to making a meaningful impact on the world around me, whether through technology or by giving back to the community.
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl mx-auto mt-6">
-            I actively volunteer with organizations supporting Toronto's most vulnerable populations, believing that compassion and innovation go hand in hand in shaping a better future. 
+            I actively volunteer with organizations supporting Toronto&apos;s most vulnerable populations, believing that compassion and innovation go hand in hand in shaping a better future. 
             Outside of tech, the hobbies I enjoy most are volleyball, basketball, working out, and playing chess. I also love being involved in school clubs, teaching others, and spending time reading to broaden my perspective.
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl mx-auto mt-6">
@@ -101,7 +101,7 @@ export default function Home() {
               <p className="text-gray-600 dark:text-gray-400 mb-2">University of Toronto</p>
               <p className="text-gray-700 dark:text-gray-300">
                 Specializing in distributed systems and AI, with coursework in software engineering, algorithms, and data structures. 
-                Completed studies in software engineering, database systems, and distributed systems. Dean's Honour List recipient while balancing 
+                Completed studies in software engineering, database systems, and distributed systems. Dean&apos;s List Scholar while balancing 
                 extracurricular activities and leadership roles.
               </p>
             </div>
@@ -217,7 +217,7 @@ export default function Home() {
               </div>
               <p className="text-gray-600 dark:text-gray-400 mb-2">UTMIST (University of Toronto Machine Intelligence Student Team)</p>
               <p className="text-gray-700 dark:text-gray-300">
-                Director of Software Infrastructure at North America's largest student-led organization for AI/ML. 
+                Director of Software Infrastructure at North America&apos;s largest student-led organization for AI/ML. 
                 UTMIST has 500+ developers across all teams, completed 50+ AI/ML projects, partnered with 20+ industry collaborators, 
                 conducted 50+ academic workshops, published 50+ articles and notebooks, and published 10+ papers in top-tier conferences. 
                 Leading infrastructure initiatives to empower students of all skill levels in accelerating their AI/ML careers through 
@@ -453,7 +453,7 @@ export default function Home() {
             Get In Touch
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
-            I'm always interested in new opportunities and exciting projects. 
+            I&apos;m always interested in new opportunities and exciting projects. 
             Whether you have a question or just want to say hi, feel free to reach out!
           </p>
           
